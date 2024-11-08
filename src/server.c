@@ -28,6 +28,7 @@ typedef struct {
     uint8_t payload[MSS];   // Data payload
 } packet;
 
+//test
 
 //debugging function, use fprintf to print to the console
 static inline void print_diag(packet* pkt, int diag) {
